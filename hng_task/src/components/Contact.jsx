@@ -16,12 +16,12 @@ function Contact () {
       <form action="#">
           <div className="fullname">
             <div>
-            <label htmlFor="first_name"> First name </label>
-            <input type="text" placeholder="Enter your first name" id="first_name" />
+            <label htmlFor="first__name"> First name </label>
+            <input type="text" placeholder="Enter your first name" id="first__name" />
             </div>
             <div>
-            <label htmlFor="last_name"> Last name </label> 
-            <input type="text" placeholder="Enter your last name" id="last_name" />
+            <label htmlFor="last__name"> Last name </label> 
+            <input type="text" placeholder="Enter your last name" id="last__name" />
             </div>
           </div>
 
@@ -43,7 +43,7 @@ function Contact () {
           </div>
 
           <div>
-          <input type="button" value="Send message" id="btn_submit"/>
+          <input type="button" value="Send message" id="btn__submit"/>
           </div>
       </form>
 

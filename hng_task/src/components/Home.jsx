@@ -30,7 +30,7 @@ const Home = () => {
               className="absolute right-0 top-10 sm:hidden"
             />
 
-            <h3> ogo_meninwa </h3>
+            <h3 id="twitter"> ogo_meninwa </h3>
             <h3 id="slack"> Perpydev </h3>
             </section>
 
@@ -84,7 +84,7 @@ const Home = () => {
               href="https://books.zuri.team/design-rules"
               rel="noopener noreferrer"
               target="_blank"
-              id="book_design"
+              id="book__design"
               className="bg-gray-200 text-center py-4 mt-3 rounded-lg font-Inter hover:bg-gray-300"
             >
               Design Books

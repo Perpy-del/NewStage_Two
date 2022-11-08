@@ -37,7 +37,7 @@
     margin-bottom: 4rem;
   }
 
-  #first_name, #last_name, #email, #message{
+  #first__name, #last__name, #email, #message{
     margin: 0.5rem 0 1.5rem;
     width: 100%;
     border: 1px solid #D0D5DD;
@@ -73,7 +73,7 @@
     color: #475467;
   }
 
-  #btn_submit {
+  #btn__submit {
     padding: 12px 20px;
     gap: 8px;
     background: #1570EF;
