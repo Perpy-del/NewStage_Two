@@ -90,7 +90,7 @@ const Home = () => {
               Design Books
             </a>
             
-            <Link to="contact">
+            <Link to="/contact" id="contact">
               Contact Me
               </Link>
             {/* <a href="#">Contact Me</a> */}

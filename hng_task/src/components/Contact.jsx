@@ -32,8 +32,7 @@ function Contact () {
 
           <div>
           <label htmlFor="message"> Message </label> <br />
-          <textarea name="message" id="message" cols="30" rows="5">
-            Send me a message and I'll reply you as soon as possible...
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Send me a message and I'll reply you as soon as possible...">
           </textarea>
           </div>
 
@@ -42,9 +41,12 @@ function Contact () {
           <label htmlFor="agreement"> You agree to providing your data to {name} who may contact you</label> </div>
           </div>
 
-          <div>
-          <input type="button" value="Send message" id="btn__submit"/>
-          </div>
+          <button
+                type="button"
+                name="send"
+                id="btn__submit"
+              > Send Message </button>
+
       </form>
 
       <footer>
